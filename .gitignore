@@ -69,3 +69,6 @@ test-output/
 .vscode
 
 helm/**/*.lock
+
+# .npmrc
+.npmrc*

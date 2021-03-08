@@ -2,12 +2,16 @@
 version: v1.14.1
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
-  SNYK-JS-LODASH-590103:
+  SNYK-JS-LODASH-1040724:
     - sequelize > lodash:
         reason: No update to Sequelize available
-        expires: '2021-01-20T16:52:28.113Z'
+        expires: '2021-03-31T16:52:28.113Z'
+  SNYK-JS-LODASH-1018905:
+    - sequelize > lodash:
+        reason: No update to Sequelize available
+        expires: '2021-03-31T16:52:28.113Z'
   SNYK-JS-AXIOS-1038255:
     - notifications-node-client > axios:
         reason: No exploit
-        expires: '2021-01-20T16:48:49.585Z'
+        expires: '2021-03-31T16:48:49.585Z'
 patch: {}
